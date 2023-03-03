@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+target/
+
+# Python
+venv/
+
+# IntelliJ IDEA
+!.idea/runConfigurations/
+!.idea/codeStyles/
+!.idea/dataSources.xml
+.idea/*
+out/
+*.iml
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# okey-doke approval testing
+*.actual
+*.actual.html
+
+anura-grid-proxy/tmp/
+anura-crossref-proxy/tmp/
+logs/
+*.pid
+*.DS_Store
+
+# Zsh compilation files
+*.zwc
+
+anura-local-https-proxy/*.log
+
+launcher.yml
+
+pipeline.yml
+
+anura-lipstick/package-lock.json
+
+secrets.json
+/.run/
