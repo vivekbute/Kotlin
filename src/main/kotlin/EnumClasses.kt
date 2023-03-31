@@ -29,13 +29,13 @@ enum class Priority(val value: Int) {
 }
 
 fun main() {
-//    val priority = Priority.NORMAL
-//    println(priority) // NORMAL
+    val priority = Priority.NORMAL
+    println(priority) // NORMAL
 //    println(priority.value) // 0
 //    println(priority.ordinal) //1
 //    println(Priority.CRITICAL.ordinal)//3
 
-    val priority =  Priority.MINOR
-    println(priority) //Minor priority
-    println(priority.text()) //[Minor priority]
+//    val priority =  Priority.MINOR
+//    println(priority) //Minor priority
+//    println(priority.text()) //[Minor priority]
 }
